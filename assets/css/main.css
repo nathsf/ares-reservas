@@ -1,0 +1,49 @@
+body {
+  font-family: "san francisco" !important;
+  font-weight: 500 !important;
+}
+body p {
+  font-size: 16px;
+}
+.hero-slider .item {
+  width: 100%;
+}
+.hero-slider .slide {
+  padding-top: 20%;
+  height: 800px;
+  background-size: cover;
+}
+.hero-slider .slide .col-sm-12 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hero-slider .slide h1 {
+  color: #fff;
+  font-family: "master of break";
+  text-shadow: 4px 4px 2px #969696;
+}
+.hero-slider .slide img {
+  width: auto !important;
+}
+.hero-slider .a1 {
+  background-image: url("../img/4.png");
+}
+.hero-slider .a2 {
+  background-image: url("../img/3.png");
+}
+.hero-slider .a3 {
+  background-image: url("../img/2.png");
+}
+.hero-slider .a4 {
+  background-image: url("../img/1.png");
+}
+.form p {
+  text-align: center;
+}
+.form .banner-orange {
+  padding-top: 0.6%;
+  color: #fff;
+  background-color: #ffa500;
+  height: 40px;
+}
