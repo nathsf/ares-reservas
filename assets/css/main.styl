@@ -4,40 +4,45 @@ body
     p 
         font-size 16px
         
-.hero-slider
-	
-	.item
-		width 100%
-	.slide
-		padding-top 20%
-		height 800px
-		background-size cover
-		.col-sm-12
-		    align-items center
-		    justify-content center
-		    display flex
-		h1 
-			color white 
-			font-family "master of break"
-			text-shadow 4px 4px 2px rgba(150, 150, 150, 1)
-		img
-			width auto!important
-			
-	.a1
-		background-image url('../img/4.png')
-	.a2
-		background-image url('../img/3.png')
-	.a3
-		background-image url('../img/2.png')
-	.a4
-		background-image url('../img/1.png')
+.hero
+	background-image url('../img/bg.png')
+	width 100%
+	height 640px
+	background-size cover
+	background-position-y -81px
+	&:before
+		content ''
+		position: absolute
+		top 0
+		right 0
+		bottom 0
+		left 0
+		background-image linear-gradient(to bottom, rgba(47, 46, 46, 0.46), rgba(0,0,0,0.45))
+		opacity .8	
+	.container 
+		padding-top 10%
 		
+	.logo
+		background-image url('../img/logo.png')
+		height 110px
+		width 12%
+		background-size cover
+		position absolute
+		top 8%
+		left 5%
+	
+	.boton-tienda
+		position absolute
+		top 43%
+		left 43.5%
+	    
+/* utils */
 
-.form 
-	p 
-		text-align center 
-	.banner-orange
-		padding-top 0.6%
-		color white
-		background-color orange
-		height 40px
+.right 
+	float right
+	
+.pl-0
+	padding-left 0px!important
+.pr-0
+	padding-right 0px!important
+	

@@ -5,45 +5,47 @@ body {
 body p {
   font-size: 16px;
 }
-.hero-slider .item {
+.hero {
+  background-image: url("../img/bg.png");
   width: 100%;
-}
-.hero-slider .slide {
-  padding-top: 20%;
-  height: 800px;
+  height: 640px;
   background-size: cover;
+  background-position-y: -81px;
 }
-.hero-slider .slide .col-sm-12 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(47,46,46,0.46), rgba(0,0,0,0.45));
+  opacity: 0.8;
 }
-.hero-slider .slide h1 {
-  color: #fff;
-  font-family: "master of break";
-  text-shadow: 4px 4px 2px #969696;
+.hero .container {
+  padding-top: 10%;
 }
-.hero-slider .slide img {
-  width: auto !important;
+.hero .logo {
+  background-image: url("../img/logo.png");
+  height: 110px;
+  width: 12%;
+  background-size: cover;
+  position: absolute;
+  top: 8%;
+  left: 5%;
 }
-.hero-slider .a1 {
-  background-image: url("../img/4.png");
+.hero .boton-tienda {
+  position: absolute;
+  top: 43%;
+  left: 43.5%;
 }
-.hero-slider .a2 {
-  background-image: url("../img/3.png");
+/* utils */
+.right {
+  float: right;
 }
-.hero-slider .a3 {
-  background-image: url("../img/2.png");
+.pl-0 {
+  padding-left: 0px !important;
 }
-.hero-slider .a4 {
-  background-image: url("../img/1.png");
-}
-.form p {
-  text-align: center;
-}
-.form .banner-orange {
-  padding-top: 0.6%;
-  color: #fff;
-  background-color: #ffa500;
-  height: 40px;
+.pr-0 {
+  padding-right: 0px !important;
 }
