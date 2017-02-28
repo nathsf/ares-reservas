@@ -4,6 +4,7 @@ body {
 }
 body p {
   font-size: 16px;
+  color: #fff !important;
 }
 .hero {
   width: 100%;
@@ -103,7 +104,52 @@ body p {
 .hero.pb .black-box {
   width: 100%;
   background-color: rgba(0,0,0,0.56);
-  height: 300px;
+  height: 335px;
+  padding: 5%;
+}
+.hero.pb .icon-pb {
+  position: relative;
+  margin: 6% 0%;
+  left: 34%;
+}
+.hero.pb .info-pb {
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  font-size: 17px;
+  color: #fff;
+  padding-right: 7%;
+  padding-top: 9%;
+}
+.hero.pb form {
+  padding: 5% 14.5%;
+}
+.hero.pb form input[type=text],
+.hero.pb form input[type=email],
+.hero.pb form input[type=phone] {
+  width: 100%;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #fff;
+  padding: 2% 8%;
+  font-size: 16px;
+  margin: 3% 0%;
+  color: #fff;
+}
+.hero.pb form input[type=submit] {
+  background-color: #5b7531;
+  color: #fff;
+  border: 0px;
+  padding: 1.5% 14%;
+  font-size: 16px;
+  float: right;
+  margin-top: 4%;
+}
+.gallery.pb {
+  border-top: 5px solid #fff;
+  margin-top: 5%;
+}
+.gallery.pb img {
+  width: 100%;
 }
 /* utils */
 .right {
