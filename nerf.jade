@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  include head.jade
+  body
+    section(class='hero nerf')
+      include menu.jade
+
+      div(class='container')
+        div(class='row')
+            div(class='col-sm-12')
+                h1 Nerf
+            div(class='col-sm-12 plr-10')
+                div(class='col-sm-12 col-md-5')
+                    div(class='black-box')
+                        img(src='assets/icons/icon-pb.png' class='icon-pb')
+                        p Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.
+                        a(href='#' class='info-pb') Ver más
+                div(class='col-sm-12 col-md-7 pl-0')
+                    div(class='black-box')
+                        form
+                            p Llena tus datos para realizar una reserva
+
+                            input(type="text" placeholder="Nombre completo" name="fullname" required)
+                            input(type="email" placeholder="Correo" name="fullname" required)
+                            input(type="phone" placeholder="telefono" name="phone" required)
+                            input(class="submit" type="submit" name="submit" value="Enviar")
+      section(class='gallery pb')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0' )
+               a(href='#')
+                  img(src='assets/img/p1-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')
+                  img(src='assets/img/p2-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')
+                  img(src='assets/img/p3-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')   
+                  img(src='assets/img/p4-mini.png' class='')
+
+
+
+
+
+    
+    script(language='JavaScript' type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/owl.carousel.min.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/jquery.homeycombs.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/main.js')
+

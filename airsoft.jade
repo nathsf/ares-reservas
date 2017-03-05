@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  include head.jade
+  body
+    section(class='hero airsoft')
+      include menu.jade
+
+      div(class='container')
+        div(class='row')
+            div(class='col-sm-12')
+                h1 Paintball
+            div(class='col-sm-12 plr-10')
+                div(class='col-sm-12 col-md-5')
+                    div(class='black-box')
+                        img(src='assets/icons/icon-pb.png' class='icon-pb')
+                        p El PAINTBALL en esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo (como capturar una bandera o eliminar a un jugador concreto).
+                        a(href='#' class='info-pb') Ver más
+                div(class='col-sm-12 col-md-7 pl-0')
+                    div(class='black-box')
+                        form
+                            p Llena tus datos para realizar una reserva
+
+                            input(type="text" placeholder="Nombre completo" name="fullname" required)
+                            input(type="email" placeholder="Correo" name="fullname" required)
+                            input(type="phone" placeholder="telefono" name="phone" required)
+                            input(class="submit" type="submit" name="submit" value="Enviar")
+      section(class='gallery pb')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0' )
+               a(href='#')
+                  img(src='assets/img/p1-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')
+                  img(src='assets/img/p2-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')
+                  img(src='assets/img/p3-mini.png' class='')
+           div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#')   
+                  img(src='assets/img/p4-mini.png' class='')
+
+
+
+
+
+    
+    script(language='JavaScript' type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/owl.carousel.min.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/jquery.homeycombs.js')
+    script(language='JavaScript' type='text/javascript' src='assets/js/main.js')
+

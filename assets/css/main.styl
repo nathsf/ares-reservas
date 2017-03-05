@@ -25,6 +25,11 @@ body
         span 
             padding-left 5%
             padding-right 5%
+    .col-sm-12.menu.hover-white
+    	a
+    		&:hover
+    			border-bottom 2px solid white
+    			color white
     h1
         text-transform uppercase
         text-align center
@@ -89,7 +94,15 @@ body
 
 .hero.pb
     background-image url('../img/bg-paintball.png')
-    
+.hero.bazooka
+	background-image url('../img/bg-bazooka.png')
+.hero.nerf
+	background-image url('../img/bg-nerf.png')
+.hero.airsoft
+	background-image url('../img/bg-paintball.png')
+	
+.hero.pb , .hero.bazooka , .hero.nerf , .hero.airsoft
+	   
     .black-box
         width 100%
         background-color rgba(0, 0, 0, 0.56)
@@ -150,3 +163,8 @@ body
 .plr-10
     padding-right 10%
     padding-left 10%
+    
+.zoom-effect 
+	transition all .2s ease-in-out
+	&:hover
+		transform scale(1.1)

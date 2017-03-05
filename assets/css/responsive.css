@@ -3,7 +3,32 @@
 /* Styles */
 .hero {
 	height: 690px;
+	background: white;
+	background-image: none!important;
 	}
+
+.hero.home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: none;
+    opacity: 0.8;
+}
+
+.width-xs {
+	width: 100%;
+}
+.pl-0-xs {
+	padding-left: 0px!important;
+}
+
+.pr-0-xs {
+	padding-right: 0px!important;
+}
+
 }
 
 /* Smartphones (landscape) ----------- */
@@ -20,7 +45,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
 	.hero {
-	height: 690px;
+	height: 750px;
 	}
 }
 
@@ -28,7 +53,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
 	.hero {
-		height: 690px;
+		height: 750px;
 		}
 }
 
@@ -73,7 +98,7 @@ iPad 3
 	height: 820px;
 	}
 	.hero.home .container {
-    padding-top: 16%;
+    padding-top: 15%;
 	}
 	.hero.home .logo {
     height: 116px;
@@ -91,7 +116,7 @@ iPad 3
 	}
 
 	.hero.home .container span {
-    left: 22%;
+    left: 20%;
     }
 }
 

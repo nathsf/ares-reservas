@@ -31,6 +31,10 @@ body p {
   padding-left: 5%;
   padding-right: 5%;
 }
+.hero .col-sm-12.menu.hover-white a:hover {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
 .hero h1 {
   text-transform: uppercase;
   text-align: center;
@@ -101,18 +105,36 @@ body p {
 .hero.pb {
   background-image: url("../img/bg-paintball.png");
 }
-.hero.pb .black-box {
+.hero.bazooka {
+  background-image: url("../img/bg-bazooka.png");
+}
+.hero.nerf {
+  background-image: url("../img/bg-nerf.png");
+}
+.hero.airsoft {
+  background-image: url("../img/bg-paintball.png");
+}
+.hero.pb .black-box,
+.hero.bazooka .black-box,
+.hero.nerf .black-box,
+.hero.airsoft .black-box {
   width: 100%;
   background-color: rgba(0,0,0,0.56);
   height: 335px;
   padding: 5%;
 }
-.hero.pb .icon-pb {
+.hero.pb .icon-pb,
+.hero.bazooka .icon-pb,
+.hero.nerf .icon-pb,
+.hero.airsoft .icon-pb {
   position: relative;
   margin: 6% 0%;
   left: 34%;
 }
-.hero.pb .info-pb {
+.hero.pb .info-pb,
+.hero.bazooka .info-pb,
+.hero.nerf .info-pb,
+.hero.airsoft .info-pb {
   font-weight: bold;
   text-align: right;
   float: right;
@@ -121,12 +143,24 @@ body p {
   padding-right: 7%;
   padding-top: 9%;
 }
-.hero.pb form {
+.hero.pb form,
+.hero.bazooka form,
+.hero.nerf form,
+.hero.airsoft form {
   padding: 5% 14.5%;
 }
 .hero.pb form input[type=text],
+.hero.bazooka form input[type=text],
+.hero.nerf form input[type=text],
+.hero.airsoft form input[type=text],
 .hero.pb form input[type=email],
-.hero.pb form input[type=phone] {
+.hero.bazooka form input[type=email],
+.hero.nerf form input[type=email],
+.hero.airsoft form input[type=email],
+.hero.pb form input[type=phone],
+.hero.bazooka form input[type=phone],
+.hero.nerf form input[type=phone],
+.hero.airsoft form input[type=phone] {
   width: 100%;
   background-color: rgba(255,255,255,0);
   border: 1px solid #fff;
@@ -135,7 +169,10 @@ body p {
   margin: 3% 0%;
   color: #fff;
 }
-.hero.pb form input[type=submit] {
+.hero.pb form input[type=submit],
+.hero.bazooka form input[type=submit],
+.hero.nerf form input[type=submit],
+.hero.airsoft form input[type=submit] {
   background-color: #5b7531;
   color: #fff;
   border: 0px;
@@ -164,4 +201,12 @@ body p {
 .plr-10 {
   padding-right: 10%;
   padding-left: 10%;
+}
+.zoom-effect {
+  transition: all 0.2s ease-in-out;
+}
+.zoom-effect:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
