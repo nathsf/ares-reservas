@@ -2,7 +2,6 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 .hero {
-	height: 690px;
 	background: white;
 	background-image: none!important;
 	}
@@ -44,17 +43,13 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
-	.hero {
-	height: 750px;
-	}
+	
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
-	.hero {
-		height: 750px;
-		}
+	
 }
 
 /* iPads (portrait) ----------- */
@@ -75,9 +70,7 @@ iPad 3
 /*min screens*/
 @media only screen  and (min-width : 995px) {
 /* Styles */
-	.hero {
-	height: 698px;
-	}
+	
 	.hero.home .logo {
 	    height: 82px;
 	    width: 12%;
@@ -94,9 +87,7 @@ iPad 3
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
-	.hero {
-	height: 820px;
-	}
+	
 	.hero.home .container {
     padding-top: 15%;
 	}
@@ -123,9 +114,6 @@ iPad 3
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */
-.hero {
-	height: 974px;
-	}
 
 .hero.home .boton-tienda {
     top: 48%;

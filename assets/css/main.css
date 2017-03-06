@@ -10,7 +10,6 @@ body p {
   width: 100%;
   background-size: cover;
   background-position-y: -81px;
-  position: fixed;
 }
 .hero .col-sm-12.menu {
   padding-left: 35%;
@@ -112,7 +111,7 @@ body p {
   background-image: url("../img/bg-nerf.png");
 }
 .hero.airsoft {
-  background-image: url("../img/bg-paintball.png");
+  background-image: none;
 }
 .hero.pb .black-box,
 .hero.bazooka .black-box,
@@ -188,6 +187,35 @@ body p {
 .gallery.pb img {
   width: 100%;
 }
+.hero.airsoft .col-sm-12 {
+  text-align: center;
+  padding-top: 6%;
+}
+.hero.airsoft h1 {
+  display: inline;
+  font-size: 4.5em !important;
+}
+.hero.airsoft .subtitle {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  display: block;
+  font-size: 1.8em;
+  padding-left: 7%;
+  position: relative;
+  bottom: 12px;
+  font-weight: 400;
+}
+.hero.airsoft .icon-airsoft {
+  display: inline;
+  position: absolute;
+  padding-top: 1%;
+}
+.hero.airsoft .gallery.airsoft {
+  margin-top: 0%;
+}
+.hero.airsoft .gallery.airsoft img {
+  width: 100%;
+}
 /* utils */
 .right {
   float: right;
@@ -206,7 +234,5 @@ body p {
   transition: all 0.2s ease-in-out;
 }
 .zoom-effect:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
