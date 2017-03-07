@@ -5,7 +5,9 @@
 	background: white;
 	background-image: none!important;
 	}
-
+.hero.home .container {
+    padding-top: 40%;
+}
 .hero.home:before {
     content: '';
     position: absolute;
@@ -28,6 +30,15 @@
 	padding-right: 0px!important;
 }
 
+.position-sm-nerf {
+	position: relative;
+    right: 371px;
+}
+.position-sm-bazooka {
+	position: relative;
+    bottom: 319px;
+    left: 374px;
+}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -78,8 +89,8 @@ iPad 3
 	    left: 6%;
 	}
 	.hero.home .boton-tienda {
-    top: 38%;
-    left: 42.5%; }
+    top: 45%;
+    left: 41.5%; }
     .hero.home .container span {
     left: 27%;
 	}
@@ -89,7 +100,7 @@ iPad 3
 /* Styles */
 	
 	.hero.home .container {
-    padding-top: 15%;
+    padding-top: 10.5%;
 	}
 	.hero.home .logo {
     height: 116px;
@@ -120,7 +131,7 @@ iPad 3
     left: 45.3%;
 }
 .hero.home .container {
-    padding-top: 16%;
+    padding-top: 15%;
 	}
 .hero.home .logo {
     height: 155px;
