@@ -88,12 +88,8 @@ iPad 3
 	    top: 9%;
 	    left: 6%;
 	}
-	.hero.home .boton-tienda {
-    top: 45%;
-    left: 41.5%; }
-    .hero.home .container span {
-    left: 27%;
-	}
+	
+    
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
@@ -105,10 +101,7 @@ iPad 3
 	.hero.home .logo {
     height: 116px;
     }
-	.hero.home .boton-tienda {
-    top: 44%;
-    left: 43%;
-	}
+	
 	.hero.home .container h2.c {
     right: 19%;
 	}
@@ -117,19 +110,34 @@ iPad 3
     left: 19%;
 	}
 
-	.hero.home .container span {
-    left: 20%;
-    }
 }
+
+@media only screen  and (min-width : 1420px) {
+/* Styles */
+    
+    .hero.home .container {
+    padding-top: 10.5%;
+    }
+    .hero.home .logo {
+    height: 116px;
+    }
+    
+    .hero.home .container h2.c {
+    right: 19%;
+    }
+
+    .hero.home .container h2.d {
+    left: 19%;
+    }
+
+    
+}
+
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */
 
-.hero.home .boton-tienda {
-    top: 48%;
-    left: 45.3%;
-}
 .hero.home .container {
     padding-top: 15%;
 	}
@@ -144,9 +152,7 @@ iPad 3
     left: 19%;
 }
 
-.hero.home .container span {
-    left: 14%;
-    }
+
 }
 
 /* iPhone 4 ----------- */

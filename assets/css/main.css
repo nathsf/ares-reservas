@@ -78,8 +78,6 @@ body p {
   right: 0;
 }
 .hero.home .container span {
-  top: 40%;
-  left: 24%;
   color: #000;
 }
 .hero.home .logo {
@@ -92,9 +90,13 @@ body p {
   left: 5%;
 }
 .hero.home .boton-tienda {
-  position: absolute;
-  top: 43%;
-  left: 43.5%;
+  text-align: center;
+  position: relative;
+  bottom: 287px;
+}
+.hero.home .boton-tienda span {
+  margin-left: 4.5%;
+  top: 40%;
 }
 .hero.home .icon-fb {
   position: absolute;
