@@ -42,18 +42,35 @@ html(lang="en")
                             input(type="phone" placeholder="telefono" name="phone" required)
                             input(class="submit" type="submit" name="submit" value="Enviar")
       section(class='gallery pb')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0' )
-               a(href='#')
-                  img(src='assets/img/n1-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')
-                  img(src='assets/img/n2-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')
-                  img(src='assets/img/n3-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')   
-                  img(src='assets/img/n4-mini.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0' )
+               a(href='#openImg1' class='')
+                 img(src='assets/img/n1-mini.png' class='')
+               div(id='openImg1' class='modalImg ')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n1-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg2' class='')
+                 img(src='assets/img/n2-mini.png' class='')
+               div(id='openImg2' class='modalImg ')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n2-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg3' class='')
+                 img(src='assets/img/n3-mini.png' class='')
+               div(id='openImg3' class='modalImg p3')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n3-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg4' class='')
+                 img(src='assets/img/n4-mini.png' class='')
+               div(id='openImg4' class='modalImg p3')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n4-full.png' class='')
+
 
 
 
