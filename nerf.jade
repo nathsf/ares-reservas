@@ -7,13 +7,14 @@ html(lang="en")
 
       div(class='container')
         div(class='row')
-            div(class='col-sm-12')
-                h1 Nerf
-            div(class='col-sm-12 plr-10')
-                div(class='col-sm-12 col-md-5')
-                    div(class='black-box')
-                        img(src='assets/icons/icon-nerf.png' class='icon-pb')
-                        p Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.
+            div(class='col-sm-12 mt-5-xs')
+                span(class='hidden-xs arrow-xs inline') <
+                h1(class='text-left-xs inline-xs') Nerf
+            div(class='col-sm-12 plr-0-xs plr-10')
+                div(class='col-sm-12 col-md-5 plr-0-xs mt-5-xs')
+                    div(class='black-box text-center')
+                        img(src='assets/icons/icon-nerf.png' class='text-center icon-pb')
+                        p(class='text-left') Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.
                         a(href='#openInfo' class='info-pb') Ver más
                         div(id='openInfo' class='modal-info')
                           div
@@ -32,16 +33,16 @@ html(lang="en")
                               li Venta de repuestos para marcadoras Tippmann 98 y FT 12
 
                             a(href='#close' title='close' class='back') Volver atrás
-                div(class='col-sm-12 col-md-7 pl-0')
-                    div(class='black-box')
+                div(class='col-sm-12 col-md-7 pl-0 plr-0-xs mt-10-xs')
+                    div(class='black-box plr-0-xs')
                         form
-                            p Llena tus datos para realizar una reserva
+                            p(class='plr-5-xs') Llena tus datos para realizar una reserva
 
-                            input(type="text" placeholder="Nombre completo" name="fullname" required)
-                            input(type="email" placeholder="Correo" name="fullname" required)
-                            input(type="phone" placeholder="telefono" name="phone" required)
-                            input(class="submit" type="submit" name="submit" value="Enviar")
-      section(class='gallery pb')
+                            input(type="text" placeholder="Nombre completo" name="fullname" required class='mlr-5-xs mtb-5-xs')
+                            input(type="email" placeholder="Correo" name="fullname" required class='mlr-5-xs mtb-5-xs')
+                            input(type="phone" placeholder="telefono" name="phone" required class='mlr-5-xs mtb-5-xs')
+                            input(class="submit" type="submit" class='width-100-xs' name="submit" value="Enviar")
+      section(class='gallery pb hidden-xs hidden-sm')
             div(class='col-sm-12 col-md-3 pl-0 pr-0' )
                a(href='#openImg1' class='')
                  img(src='assets/img/n1-mini.png' class='')

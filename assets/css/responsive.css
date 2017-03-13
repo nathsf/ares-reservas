@@ -85,15 +85,62 @@
     left: 40%;
     float: none!important;
 }
+
+.hero.pb form, .hero.nerf form {
+    padding: 0px;
+} 
 /*utils*/
 .plr-0-xs {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.plr-5-xs {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mlr-5-xs {
+    margin-left: 5%!important;
+    margin-right: 5%!important;
 }
 
+.mtb-xs {
+    margin-top: 3%!important;
+    margin-bottom: 3%!important;
+}
+.mt-5-xs {
+    padding-top: 5%!important;
+}
 .mt-10-xs {
     margin-top: 10%;
 }
+.text-left-xs {
+    text-align: left!important;
+}
+.width-100-xs {
+    width: 100%;
+}
+.arrow-xs {
+    font-size: 9em;
+    display: inline;
+    padding-right: 5%;
+}
+
+.inline-xs {
+    display: inline;
+}
+
+form input[type=submit] {
+    font-size: 2.8em!important;
+    padding: 4% 14%!important;
+
+}
+
+form input[type=text], form input[type=email], form input[type=phone] {
+    font-size: 2.5em!important;
+    width: 88%!important;
+
+}
+
 }
 
 /* Smartphones (landscape) ----------- */
