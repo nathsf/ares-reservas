@@ -5,9 +5,7 @@
 	background: white;
 	background-image: none!important;
 	}
-.hero.home .container {
-    padding-top: 48%;
-}
+
 .hero.home:before {
     content: '';
     position: absolute;
@@ -21,14 +19,8 @@
 
 .hero.home .icon-fb {
     position: relative;
-    top: -17%;
-    margin-left: 35%;
-    margin-right: 35%;
-}
-.hero.home .logo img {
-        
-    padding-left: 33%;
-    padding-right: 33%;
+    top: -300px;
+    left: 0px;
 }
 .width-xs {
 	width: 100%;
