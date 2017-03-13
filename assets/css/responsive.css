@@ -26,7 +26,9 @@
     margin-right: 35%;
 }
 .hero.home .logo img {
-        padding-left: 45%;
+        
+    padding-left: 33%;
+    padding-right: 33%;
 }
 .width-xs {
 	width: 100%;
