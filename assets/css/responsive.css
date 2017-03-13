@@ -6,7 +6,7 @@
 	background-image: none!important;
 	}
 .hero.home .container {
-    padding-top: 40%;
+    padding-top: 48%;
 }
 .hero.home:before {
     content: '';
@@ -19,6 +19,15 @@
     opacity: 0.8;
 }
 
+.hero.home .icon-fb {
+    position: relative;
+    top: -17%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.hero.home .logo img {
+        padding-left: 45%;
+}
 .width-xs {
 	width: 100%;
 }
@@ -38,6 +47,15 @@
 	position: relative;
     bottom: 319px;
     left: 374px;
+}
+
+.hero.home .boton-tienda {
+    text-align: center;
+    position: relative;
+    top: -734px;
+}
+.boton-tienda img {
+        width: 29%;
 }
 }
 

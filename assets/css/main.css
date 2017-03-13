@@ -81,10 +81,6 @@ body p {
   color: #000;
 }
 .hero.home .logo {
-  background-image: url("../img/logo.png");
-  height: 110px;
-  width: 12%;
-  background-size: cover;
   position: absolute;
   top: 8%;
   left: 5%;
@@ -213,7 +209,7 @@ body p {
   padding-top: 1%;
 }
 .hero.airsoft .gallery.airsoft {
-  margin-top: 0%;
+  margin-top: 4%;
 }
 .hero.airsoft .gallery.airsoft img {
   width: 100%;
@@ -319,6 +315,26 @@ body p {
   text-decoration: underline;
   color: #008000;
 }
+.phone {
+  font-size: 1.5em;
+}
+.icon-home {
+  position: absolute;
+  top: 19%;
+  right: 9%;
+}
+.icon-home div {
+  background-image: url("../icons/home-icon.png");
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.icon-home span {
+  text-transform: uppercase;
+  padding-left: 3%;
+  text-decoration: none;
+  color: #000;
+}
 /* utils */
 .right {
   float: right;
@@ -333,6 +349,21 @@ body p {
   padding-right: 10%;
   padding-left: 10%;
 }
+.fw-light {
+  font-weight: 400;
+}
+.text-black {
+  color: #000 !important;
+}
+.text-center {
+  text-align: center;
+}
+.pt-5 {
+  padding-top: 5%;
+}
+.pb-3 {
+  padding-bottom: 3%;
+}
 .zoom-effect {
   transition: all 0.2s ease-in-out;
 }
@@ -340,4 +371,7 @@ body p {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+.inline {
+  display: inline;
 }
