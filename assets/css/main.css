@@ -124,9 +124,8 @@ body p {
 .hero.bazooka .icon-pb,
 .hero.nerf .icon-pb,
 .hero.airsoft .icon-pb {
-  position: relative;
   margin: 6% 0%;
-  left: 34%;
+  text-align: center;
 }
 .hero.pb .info-pb,
 .hero.bazooka .info-pb,
@@ -357,6 +356,9 @@ body p {
 }
 .text-center {
   text-align: center;
+}
+.text-left {
+  text-align: left !important;
 }
 .pt-5 {
   padding-top: 5%;
