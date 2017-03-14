@@ -187,6 +187,13 @@
 
 	.fz-2-xs {font-size: 2.5em;}
 	.fz-3-xs{font-size: 3em;}
+	.modal-info.home div {
+    	width: 65%!important;
+    	margin: 45% auto;
+	}
+	.modal-info.home h3 {
+		  font-size: 3em;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -350,6 +357,15 @@
 
 	.fz-2-xs {font-size: 2.5em;}
 	.fz-3-xs{font-size: 3em;}
+
+	.modal-info.home div {
+    	width: 65%!important;
+    	margin: 40% auto;
+	}
+	.modal-info.home h3 {
+		  font-size: 3em;
+	}
+
 }
 
 /* iPads (landscape) ----------- */
