@@ -11,42 +11,75 @@
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
   </head>
   <body>
-    <section class="hero nerf">
-      <div class="container">
+    <section id="main" class="hero nerf">
+      <div class="container hidden-xs hidden-sm">
         <div class="row">
           <div class="col-sm-12 menu"><a href="index.html">Home</a><span class="bar">|</span><a href="paintball.html">Paintball</a><span class="bar">|</span><a href="nerf.html">Nerf</a><span class="bar">|</span><a href="bazooka.html">Bazooka</a><span class="bar">|</span><a href="airsoft.html">Airsoft</a><span class="bar">|</span><a href="#">Tienda</a></div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <h1>Nerf</h1>
+          <div class="col-sm-12 mt-5-xs"><span class="hidden-xs arrow-xs inline"><</span>
+            <h1 class="text-left-xs inline-xs">Nerf</h1>
           </div>
-          <div class="col-sm-12 plr-10">
-            <div class="col-sm-12 col-md-5">
-              <div class="black-box"><img src="assets/icons/icon-nerf.png" class="icon-pb">
-                <p>Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.</p><a href="#" class="info-pb">Ver más</a>
+          <div class="col-sm-12 plr-0-xs plr-10">
+            <div class="col-sm-12 col-md-5 plr-0-xs mt-5-xs">
+              <div class="black-box text-center"><img src="assets/icons/icon-nerf.png" class="text-center icon-pb">
+                <p class="text-left">Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.</p><a href="#openInfo" class="info-pb">Ver más</a>
+                <div id="openInfo" class="modal-info">
+                  <div>
+                    <h2>nerf</h2>
+                    <p>El paintball een esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo ( como capturar una bandera o eliminar a un jugador en concreto). Los jugadores alcanzados por bolas de pintura son eliminados del mismo. Contrariamente a lo que se piensa, es uno de los deportes al aire libre más seguros. A pesar de lo que mucha gente piensa que es un juego violento, todo lo contrario, es un juego que fomenta la colaboración en equipo asi como la relajación y la disminución del estrés ocacionado por el trabajo, estudios, etc. </p><span>Campos</span>
+                    <ol>
+                      <li>Campo móvil</li>
+                      <li>Lima Norte (próximamente)</li>
+                    </ol><span>Tienda</span>
+                    <ol>
+                      <li>Cajas de Paintball</li>
+                      <li>Máscaras</li>
+                      <li>Lentes</li>
+                      <li>Marcadores de Paintball Tippmann 98 y FT 12</li>
+                      <li>Venta de repuestos para marcadoras Tippmann 98 y FT 12</li>
+                    </ol><a href="#close" title="close" class="back">Volver atrás</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-7 pl-0">
-              <div class="black-box">
+            <div class="col-sm-12 col-md-7 pl-0 plr-0-xs mt-10-xs">
+              <div class="black-box plr-0-xs">
                 <form>
-                  <p>Llena tus datos para realizar una reserva</p>
-                  <input type="text" placeholder="Nombre completo" name="fullname" required>
-                  <input type="email" placeholder="Correo" name="fullname" required>
-                  <input type="phone" placeholder="telefono" name="phone" required>
-                  <input type="submit" name="submit" value="Enviar" class="submit">
+                  <p class="plr-5-xs">Llena tus datos para realizar una reserva</p>
+                  <input type="text" placeholder="Nombre completo" name="fullname" required class="mlr-5-xs mtb-5-xs">
+                  <input type="email" placeholder="Correo" name="fullname" required class="mlr-5-xs mtb-5-xs">
+                  <input type="phone" placeholder="telefono" name="phone" required class="mlr-5-xs mtb-5-xs">
+                  <input type="submit" name="submit" value="Enviar" class="submit width-100-xs">
                 </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section class="gallery pb">
-        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#"><img src="assets/img/n1-mini.png"></a></div>
-        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#"><img src="assets/img/n2-mini.png"></a></div>
-        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#"><img src="assets/img/n3-mini.png"></a></div>
-        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#">  <img src="assets/img/n4-mini.png"></a></div>
+      <section class="gallery pb hidden-xs hidden-sm">
+        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg1"><img src="assets/img/n1-mini.png"></a>
+          <div id="openImg1" class="modalImg ">
+            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/n1-full.png"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg2"><img src="assets/img/n2-mini.png"></a>
+          <div id="openImg2" class="modalImg ">
+            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/n2-full.png"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg3"><img src="assets/img/n3-mini.png"></a>
+          <div id="openImg3" class="modalImg p3">
+            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/n3-full.png"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg4"><img src="assets/img/n4-mini.png"></a>
+          <div id="openImg4" class="modalImg p3">
+            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/n4-full.png"></div>
+          </div>
+        </div>
       </section>
     </section>
     <script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>

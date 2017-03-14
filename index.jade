@@ -2,35 +2,47 @@ doctype html
 html(lang="en")
   include head.jade
   body
-    section(class='hero home' id='main')
-      div(class='logo')
+    section(class='hero home' id='main' style='position:fixed;')
+      div(class='logo md')
+        img(src='assets/img/logo.png' class='hidden-xs hidden-sm')
+      div(class='container text-center hidden-md hidden-lg')
+        div(class='row')
+            div(class='logo')
+                img(src='assets/icons/logo-xs.png' class='hidden-md hidden-lg')
+
       div(class='icon-fb')
         a(href='#' )
-                img(src='assets/icons/facebook.png')
+                img(src='assets/icons/facebook.png' class='hidden-xs hidden-sm')
       div(class='container')
         div(class='row')
             div(class='col-sm-6 col-md-3 col-md-offset-3 pr-0 pl-0-xs ')
                 a(href='paintball.html' )
                     img(src='assets/img/paintball.png' class='right width-xs zoom-effect')
+                  
                     h2(class='a d') Paintball
             div(class='col-sm-6 col-md-3 pl-0 pr-0-xs')
                 a(href='airsoft.html' )
                     img(src='assets/img/softair.png' class='width-xs zoom-effect')
                     h2(class='a c') Soft Air
-            div(class='col-sm-6 col-md-3 col-md-offset-3 pr-0 pl-0-xs')
+            div(class='col-sm-6 col-md-3 col-md-offset-3 pr-0 pl-0-xs position-sm-nerf')
                 a(href='nerf.html' )
                     img(src='assets/img/nerf.png' class='right width-xs zoom-effect')
                     h2(class='b d') Nerf
-            div(class='col-sm-6 col-md-3 pl-0 pr-0-xs')
+            div(class='col-sm-6 col-md-3 pl-0 pr-0-xs position-sm-bazooka')
                 a(href='bazooka.html' )
                     img(src='assets/img/bazooka.png' class='width-xs zoom-effect')
                     h2(class='b c') Bazooka Ball
-            div(class='col-sm-3 boton-tienda')
+            div(class='col-sm-12 boton-tienda')
                 a(href='#' )
                     span Tienda
                     img(src='assets/img/boton-tienda.png' class='')
 
 
+      div(class='container text-center')
+        div(class='row')
+            div(class='icon-fb')
+                a(href='#' )
+                        img(src='assets/icons/facebook-xs.png' class='hidden-lg hidden-md')
 
 
     

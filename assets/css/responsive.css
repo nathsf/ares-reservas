@@ -16,7 +16,20 @@
     background-image: none;
     opacity: 0.8;
 }
+.hero.home .container h2 {
+    font-size: 2.5em; }
 
+.hero.home .container h2.c {
+    padding-right: 7%;
+}
+.hero.home .container h2.d {
+    padding-left: 7%;
+}
+.hero.home .icon-fb {
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
 .width-xs {
 	width: 100%;
 }
@@ -26,6 +39,106 @@
 
 .pr-0-xs {
 	padding-right: 0px!important;
+}
+
+.position-sm-nerf {
+	position: relative;
+    right: 371px;
+}
+.position-sm-bazooka {
+	position: relative;
+    bottom: 319px;
+    left: 374px;
+}
+
+.hero.home .boton-tienda {
+    text-align: center;
+    position: relative;
+    top: -734px;
+}
+.hero.home .boton-tienda span {
+    margin-left: 0;
+    margin-right: 0%;
+    top: 38%;
+    left: 45%;
+    right: 50%;
+    font-size: 2em;
+}
+.boton-tienda img {
+        width: 29%;
+}
+
+/*reservas*/
+.black-box {
+    height: auto!important;
+
+}
+.black-box p {
+    font-size: 2.8em!important;
+}
+.icon-pb {
+        width: 40%;
+}
+.info-pb {
+    font-size: 2.4em!important;
+    position: relative;
+    left: 40%;
+    float: none!important;
+}
+
+.hero.pb form, .hero.nerf form {
+    padding: 0px;
+} 
+/*utils*/
+.plr-0-xs {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.plr-5-xs {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mlr-5-xs {
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+}
+
+.mtb-xs {
+    margin-top: 3%!important;
+    margin-bottom: 3%!important;
+}
+.mt-5-xs {
+    padding-top: 5%!important;
+}
+.mt-10-xs {
+    margin-top: 10%;
+}
+.text-left-xs {
+    text-align: left!important;
+}
+.width-100-xs {
+    width: 100%;
+}
+.arrow-xs {
+    font-size: 9em;
+    display: inline;
+    padding-right: 5%;
+}
+
+.inline-xs {
+    display: inline;
+}
+
+form input[type=submit] {
+    font-size: 2.8em!important;
+    padding: 4% 14%!important;
+
+}
+
+form input[type=text], form input[type=email], form input[type=phone] {
+    font-size: 2.5em!important;
+    width: 88%!important;
+
 }
 
 }
@@ -77,27 +190,20 @@ iPad 3
 	    top: 9%;
 	    left: 6%;
 	}
-	.hero.home .boton-tienda {
-    top: 38%;
-    left: 42.5%; }
-    .hero.home .container span {
-    left: 27%;
-	}
+	
+    
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
 	
 	.hero.home .container {
-    padding-top: 15%;
+    padding-top: 10.5%;
 	}
 	.hero.home .logo {
     height: 116px;
     }
-	.hero.home .boton-tienda {
-    top: 44%;
-    left: 43%;
-	}
+	
 	.hero.home .container h2.c {
     right: 19%;
 	}
@@ -106,21 +212,36 @@ iPad 3
     left: 19%;
 	}
 
-	.hero.home .container span {
-    left: 20%;
-    }
 }
+
+@media only screen  and (min-width : 1420px) {
+/* Styles */
+    
+    .hero.home .container {
+    padding-top: 10.5%;
+    }
+    .hero.home .logo {
+    height: 116px;
+    }
+    
+    .hero.home .container h2.c {
+    right: 19%;
+    }
+
+    .hero.home .container h2.d {
+    left: 19%;
+    }
+
+    
+}
+
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */
 
-.hero.home .boton-tienda {
-    top: 48%;
-    left: 45.3%;
-}
 .hero.home .container {
-    padding-top: 16%;
+    padding-top: 15%;
 	}
 .hero.home .logo {
     height: 155px;
@@ -133,9 +254,7 @@ iPad 3
     left: 19%;
 }
 
-.hero.home .container span {
-    left: 14%;
-    }
+
 }
 
 /* iPhone 4 ----------- */

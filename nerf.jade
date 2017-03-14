@@ -2,41 +2,76 @@ doctype html
 html(lang="en")
   include head.jade
   body
-    section(class='hero nerf')
+    section(class='hero nerf' id='main')
       include menu.jade
 
       div(class='container')
         div(class='row')
-            div(class='col-sm-12')
-                h1 Nerf
-            div(class='col-sm-12 plr-10')
-                div(class='col-sm-12 col-md-5')
-                    div(class='black-box')
-                        img(src='assets/icons/icon-nerf.png' class='icon-pb')
-                        p Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.
-                        a(href='#' class='info-pb') Ver más
-                div(class='col-sm-12 col-md-7 pl-0')
-                    div(class='black-box')
-                        form
-                            p Llena tus datos para realizar una reserva
+            div(class='col-sm-12 mt-5-xs')
+                span(class='hidden-xs arrow-xs inline') <
+                h1(class='text-left-xs inline-xs') Nerf
+            div(class='col-sm-12 plr-0-xs plr-10')
+                div(class='col-sm-12 col-md-5 plr-0-xs mt-5-xs')
+                    div(class='black-box text-center')
+                        img(src='assets/icons/icon-nerf.png' class='text-center icon-pb')
+                        p(class='text-left') Te ofrecemos una contienda con lanzadores de Nerf que al disparar dardos de espuma es totalmente inocuo para los niños. Tal vez usted esté pensando que este juego podría promover instintos bélicos, sin embargo en nuestra experiencia hemos comprobado que más bien es positivo para ellos.
+                        a(href='#openInfo' class='info-pb') Ver más
+                        div(id='openInfo' class='modal-info')
+                          div
+                            h2 nerf
+                            p El paintball een esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo ( como capturar una bandera o eliminar a un jugador en concreto). Los jugadores alcanzados por bolas de pintura son eliminados del mismo. Contrariamente a lo que se piensa, es uno de los deportes al aire libre más seguros. A pesar de lo que mucha gente piensa que es un juego violento, todo lo contrario, es un juego que fomenta la colaboración en equipo asi como la relajación y la disminución del estrés ocacionado por el trabajo, estudios, etc. 
+                            span Campos
+                            ol
+                              li Campo móvil
+                              li Lima Norte (próximamente)
+                            span Tienda
+                            ol
+                              li Cajas de Paintball
+                              li Máscaras
+                              li Lentes
+                              li Marcadores de Paintball Tippmann 98 y FT 12
+                              li Venta de repuestos para marcadoras Tippmann 98 y FT 12
 
-                            input(type="text" placeholder="Nombre completo" name="fullname" required)
-                            input(type="email" placeholder="Correo" name="fullname" required)
-                            input(type="phone" placeholder="telefono" name="phone" required)
-                            input(class="submit" type="submit" name="submit" value="Enviar")
-      section(class='gallery pb')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0' )
-               a(href='#')
-                  img(src='assets/img/n1-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')
-                  img(src='assets/img/n2-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')
-                  img(src='assets/img/n3-mini.png' class='')
-           div(class='col-sm-12 col-md-3 pl-0 pr-0')
-               a(href='#')   
-                  img(src='assets/img/n4-mini.png' class='')
+                            a(href='#close' title='close' class='back') Volver atrás
+                div(class='col-sm-12 col-md-7 pl-0 plr-0-xs mt-10-xs')
+                    div(class='black-box plr-0-xs')
+                        form
+                            p(class='plr-5-xs') Llena tus datos para realizar una reserva
+
+                            input(type="text" placeholder="Nombre completo" name="fullname" required class='mlr-5-xs mtb-5-xs')
+                            input(type="email" placeholder="Correo" name="fullname" required class='mlr-5-xs mtb-5-xs')
+                            input(type="phone" placeholder="telefono" name="phone" required class='mlr-5-xs mtb-5-xs')
+                            input(class="submit" type="submit" class='width-100-xs' name="submit" value="Enviar")
+      section(class='gallery pb hidden-xs hidden-sm')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0' )
+               a(href='#openImg1' class='')
+                 img(src='assets/img/n1-mini.png' class='')
+               div(id='openImg1' class='modalImg ')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n1-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg2' class='')
+                 img(src='assets/img/n2-mini.png' class='')
+               div(id='openImg2' class='modalImg ')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n2-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg3' class='')
+                 img(src='assets/img/n3-mini.png' class='')
+               div(id='openImg3' class='modalImg p3')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n3-full.png' class='')
+            div(class='col-sm-12 col-md-3 pl-0 pr-0')
+               a(href='#openImg4' class='')
+                 img(src='assets/img/n4-mini.png' class='')
+               div(id='openImg4' class='modalImg p3')
+                 div
+                   a(href='#close' title='close' class='close') X
+                   img(src='assets/img/n4-full.png' class='')
+
 
 
 

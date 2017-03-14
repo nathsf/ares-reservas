@@ -39,6 +39,7 @@ body
         
     
 .hero.home
+	
     background-image url('../img/bg.png')
     &:before
         content ''
@@ -69,28 +70,28 @@ body
         h2.c 
             right 0 
         span
-            top 40%
-            left 24%
+            
             color black
         
-    .logo
-        background-image url('../img/logo.png')
-        height 110px
-        width 12%
-        background-size cover
+    .logo.md
+
         position absolute
         top 8%
         left 5%
     
     .boton-tienda
-        position absolute
-        top 43%
-        left 43.5%
+        text-align center
+        position relative
+        bottom 287px
+        
+        span 
+        	margin-left 4.5%
+        	top 40%
         
     .icon-fb
         position absolute
-        top 27%
-        left 10%
+        top 30%
+        left 9.5%
 
 .hero.pb
     background-image url('../img/bg-paintball.png')
@@ -110,9 +111,8 @@ body
         padding 5%
 
     .icon-pb
-            position relative
             margin 6% 0%
-            left 34%
+            text-align center
             
     .info-pb
         font-weight bold
@@ -171,10 +171,129 @@ body
          position absolute
          padding-top 1%
     .gallery.airsoft
-        margin-top 0%
+        margin-top 4%
         img
             width 100%
-            
+          
+
+
+/*modal ver mas*/
+.modal-info 
+	position fixed
+	font-family Arial, Helvetica, sans-serif
+	top 0
+	right: 0
+	bottom: 0
+	left: 0
+	background: rgba(0,0,0,0.8)
+	z-index 99999
+	opacity 0
+	-webkit-transition opacity 400ms ease-in
+	-moz-transition opacity 400ms ease-in
+	transition opacity 400ms ease-in
+	pointer-events none
+	
+	&:target
+		opacity 1
+		pointer-events auto
+	
+.modal-info > div 
+	color black
+	width 75%
+	position relative
+	margin 8% auto
+	padding 3% 6% 5.5% 6%
+	border-radius 10px
+	background #fff
+	h2 
+		text-transform uppercase
+		font-weight bolder
+		color black
+		font-size 4em
+		text-align center
+	p 
+		color black!important
+		font-size 14px
+		
+
+.modalImg
+	position fixed
+	font-family Arial, Helvetica, sans-serif
+	top 0
+	right: 0
+	bottom: 0
+	left: 0
+	background: rgba(0,0,0,0.8)
+	z-index 99999
+	opacity 0
+	-webkit-transition opacity 400ms ease-in
+	-moz-transition opacity 400ms ease-in
+	transition opacity 400ms ease-in
+	pointer-events none
+	
+	&:target
+		opacity 1
+		pointer-events auto
+	
+.modalImg > div 
+	color black
+	width 45%
+	position relative
+	margin 6% auto
+	padding 1%
+	background #fff
+	
+.close
+	font-size 1.2em
+	background #606061
+	color #FFFFFF
+	line-height 27px
+	position absolute
+	right -12px
+	text-align center
+	top -10px
+	width 28px
+	text-decoration none
+	font-weight bold
+	-webkit-border-radius 12px
+	-moz-border-radius 12px
+	border-radius 12px
+	-moz-box-shadow 1px 1px 3px #000
+	-webkit-box-shadow 1px 1px 3px #000
+	box-shadow 1px 1px 3px #000
+
+	&:hover
+		color white
+		text-decoration none
+		background red!important
+.back
+	color black
+	float right 
+	font-weight bold
+	padding-top 2%
+	&:hover
+		text-decoration underline
+		color green
+	 
+
+.phone
+	font-size 1.5em
+		
+.icon-home
+	position absolute
+	top 19%
+	right 9%
+	div
+		background-image url('../icons/home-icon.png')	
+		height 20px
+		width 20px
+		background-repeat no-repeat	
+	span 
+		text-transform uppercase
+		padding-left 3%
+		text-decoration none
+		color black
+    
 /* utils */
 
 .right 
@@ -187,8 +306,22 @@ body
 .plr-10
     padding-right 10%
     padding-left 10%
-    
+.fw-light
+	font-weight 400
+.text-black
+	color black!important    
+.text-center
+	text-align center
+.text-left
+	text-align left!important
+.pt-5 
+	padding-top 5%
+.pb-3
+	padding-bottom 3%
 .zoom-effect 
 	transition all .2s ease-in-out
 	&:hover
 		transform scale(1.1)
+.inline
+	display inline
+	
