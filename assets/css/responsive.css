@@ -100,9 +100,17 @@
 	}
 	.mlr-5-xs {
 	    margin-left: 5%!important;
-	    margin-right: 5%!important;
+	    margin-right: 1%!important;
 	}
-
+	.required {
+    z-index: 41;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3%;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 200;
+	}
 	.mtb-xs {
 	    margin-top: 3%!important;
 	    margin-bottom: 3%!important;
@@ -112,6 +120,9 @@
 	}
 	.mt-10-xs {
 	    margin-top: 10%;
+	}
+	.mb-10-xs {
+		margin-bottom: 10%;
 	}
 	.text-left-xs {
 	    text-align: left!important;
@@ -123,8 +134,14 @@
 	    font-size: 9em;
 	    display: inline;
 	    padding-right: 5%;
+	    position: relative;
+	    top: 6px;
+	    color: black;
+	    text-decoration: none!important;
 	}
-
+	.arrow-xs a:focus, a:hover {
+	    color: black;
+	}
 	.inline-xs {
 	    display: inline;
 	}
@@ -271,7 +288,7 @@
 	}
 	.mlr-5-xs {
 	    margin-left: 5%!important;
-	    margin-right: 5%!important;
+	    margin-right: 1%!important;
 	}
 
 	.mtb-xs {
@@ -284,6 +301,9 @@
 	.mt-10-xs {
 	    margin-top: 10%;
 	}
+	.mb-10-xs {
+		margin-bottom: 10%;
+	}
 	.text-left-xs {
 	    text-align: left!important;
 	}
@@ -291,11 +311,26 @@
 	    width: 100%;
 	}
 	.arrow-xs {
-	    font-size: 8em;
-	    display: inline;
-	    padding-right: 5%;
+	        font-size: 9em;
+		    display: inline;
+		    padding-right: 5%;
+		    position: relative;
+		    top: 6px;
+		    color: black;
+		    text-decoration: none!important;
+    	}
+    .arrow-xs a:focus, a:hover {
+	    color: black;
 	}
-
+	.required {
+    z-index: 41;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3%;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 200;
+	}
 	.inline-xs {
 	    display: inline;
 	}

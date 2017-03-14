@@ -7,8 +7,8 @@ html(lang="en")
 
       div(class='container')
         div(class='row')
-            div(class='col-sm-12 mt-5-xs')
-                span(class='hidden-md hidden-lg arrow-xs inline') <
+            div(class='col-sm-12 ')
+                a( href='index.html' class='hidden-md hidden-lg arrow-xs inline') <
                 h1(class='text-left-xs inline-xs') Paintball
             div(class='col-sm-12 plr-0-xs plr-10 mt-5-xs')
                 div(class='col-sm-12 col-md-5 plr-0-xs')
@@ -33,14 +33,17 @@ html(lang="en")
                               li Venta de repuestos para marcadoras Tippmann 98 y FT 12
 
                             a(href='#close' title='close' class='back') Volver atrás
-                div(class='col-sm-12 col-md-7 pl-0 plr-0-xs mt-10-xs')
+                div(class='col-sm-12 col-md-7 pl-0 plr-0-xs mt-10-xs mb-10-xs')
                     div(class='black-box plr-0-xs')
                         form
                             p(class='plr-5-xs') Llena tus datos para realizar una reserva
 
                             input(type="text" placeholder="Nombre completo" name="fullname" required class='mlr-5-xs mtb-5-xs')
+                            span(class='required') *
                             input(type="email" placeholder="Correo" name="fullname" required class='mtb-5-xs mlr-5-xs')
+                            span(class='required') *
                             input(type="phone" placeholder="telefono" name="phone" required class='mlr-5-xs mtb-5-xs')
+                            span(class='required') *
                             input(class="submit" type="submit" name="submit" value="Enviar" class='width-100-xs')
       section(class='gallery pb hidden-xs hidden-sm')
            div(class='col-sm-12 col-md-3 pl-0 pr-0' )
