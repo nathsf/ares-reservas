@@ -8,11 +8,11 @@ $('.slide-g').owlCarousel({
             ],
     responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         600:{
-            items:1,
+            items:2,
             nav:false
         },
         1000:{

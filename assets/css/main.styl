@@ -90,8 +90,8 @@ body
         
     .icon-fb
         position absolute
-        top 30%
-        left 9.5%
+        top 28%
+        left 8.5%
 
 .hero.pb
     background-image url('../img/bg-paintball.png')
@@ -284,15 +284,25 @@ body
 	top 19%
 	right 9%
 	div
-		background-image url('../icons/home-icon.png')	
-		height 20px
-		width 20px
-		background-repeat no-repeat	
-	span 
-		text-transform uppercase
-		padding-left 3%
-		text-decoration none
-		color black
+        background-image url('../icons/home-icon.png')    
+        height 20px
+        width 20px
+        background-repeat no-repeat
+        position relative
+        top 22px
+        right 43%      
+
+    span 
+        text-transform uppercase
+        padding-left 3%
+        text-decoration none
+        color black
+        
+    &:hover
+        div
+           background-image url('../icons/btn-home-hover.png')       
+        span
+            color #5b7532
     
 /* utils */
 

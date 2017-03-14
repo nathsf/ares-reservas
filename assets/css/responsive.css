@@ -1,146 +1,192 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
-.hero {
-	background: white;
-	background-image: none!important;
+	.hero {
+		background: white;
+		background-image: none!important;
+		}
+
+	.hero.home:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background-image: none;
+	    opacity: 0.8;
+	}
+	.hero.home .container h2 {
+	    font-size: 2.5em; }
+
+	.hero.home .container h2.c {
+	    padding-right: 7%;
+	}
+	.hero.home .container h2.d {
+	    padding-left: 7%;
+	}
+	.hero.home .icon-fb {
+	    position: relative;
+	    top: -415px;
+	    left: 0px;
+	}
+	.width-xs {
+		width: 100%;
+	}
+	.pl-0-xs {
+		padding-left: 0px!important;
 	}
 
-.hero.home:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: none;
-    opacity: 0.8;
-}
-.hero.home .container h2 {
-    font-size: 2.5em; }
+	.pr-0-xs {
+		padding-right: 0px!important;
+	}
 
-.hero.home .container h2.c {
-    padding-right: 7%;
-}
-.hero.home .container h2.d {
-    padding-left: 7%;
-}
-.hero.home .icon-fb {
-    position: relative;
-    top: -300px;
-    left: 0px;
-}
-.width-xs {
-	width: 100%;
-}
-.pl-0-xs {
-	padding-left: 0px!important;
-}
+	.position-sm-nerf {
+		position: relative;
+	    right: 371px;
+	}
+	.position-sm-bazooka {
+		position: relative;
+	    bottom: 319px;
+	    left: 374px;
+	}
 
-.pr-0-xs {
-	padding-right: 0px!important;
-}
+	.hero.home .boton-tienda {
+	    text-align: center;
+	    position: relative;
+	    top: -734px;
+	}
+	.hero.home .boton-tienda span {
+	    margin-left: 0;
+	    margin-right: 0%;
+	    top: 38%;
+	    left: 45%;
+	    right: 50%;
+	    font-size: 2em;
+	}
+	.boton-tienda img {
+	        width: 29%;
+	}
 
-.position-sm-nerf {
-	position: relative;
-    right: 371px;
-}
-.position-sm-bazooka {
-	position: relative;
-    bottom: 319px;
-    left: 374px;
-}
+	/*reservas*/
+	.black-box {
+	    height: auto!important;
 
-.hero.home .boton-tienda {
-    text-align: center;
-    position: relative;
-    top: -734px;
-}
-.hero.home .boton-tienda span {
-    margin-left: 0;
-    margin-right: 0%;
-    top: 38%;
-    left: 45%;
-    right: 50%;
-    font-size: 2em;
-}
-.boton-tienda img {
-        width: 29%;
-}
+	}
+	.black-box p {
+	    font-size: 2.8em!important;
+	}
+	.icon-pb {
+	        width: 40%;
+	}
+	.info-pb {
+	    font-size: 2.4em!important;
+	    position: relative;
+	    left: 40%;
+	    float: none!important;
+	}
 
-/*reservas*/
-.black-box {
-    height: auto!important;
+	.hero.pb form, .hero.nerf form, .hero.bazooka form {
+	    padding: 0px;
+	} 
+	/*utils*/
+	.plr-0-xs {
+	    padding-left: 0px!important;
+	    padding-right: 0px!important;
+	}
+	.plr-5-xs {
+	    padding-left: 5%;
+	    padding-right: 5%;
+	}
+	.mlr-5-xs {
+	    margin-left: 5%!important;
+	    margin-right: 5%!important;
+	}
 
-}
-.black-box p {
-    font-size: 2.8em!important;
-}
-.icon-pb {
-        width: 40%;
-}
-.info-pb {
-    font-size: 2.4em!important;
-    position: relative;
-    left: 40%;
-    float: none!important;
-}
+	.mtb-xs {
+	    margin-top: 3%!important;
+	    margin-bottom: 3%!important;
+	}
+	.mt-5-xs {
+	    padding-top: 5%!important;
+	}
+	.mt-10-xs {
+	    margin-top: 10%;
+	}
+	.text-left-xs {
+	    text-align: left!important;
+	}
+	.width-100-xs {
+	    width: 100%;
+	}
+	.arrow-xs {
+	    font-size: 9em;
+	    display: inline;
+	    padding-right: 5%;
+	}
 
-.hero.pb form, .hero.nerf form {
-    padding: 0px;
-} 
-/*utils*/
-.plr-0-xs {
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-}
-.plr-5-xs {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.mlr-5-xs {
-    margin-left: 5%!important;
-    margin-right: 5%!important;
-}
+	.inline-xs {
+	    display: inline;
+	}
 
-.mtb-xs {
-    margin-top: 3%!important;
-    margin-bottom: 3%!important;
-}
-.mt-5-xs {
-    padding-top: 5%!important;
-}
-.mt-10-xs {
-    margin-top: 10%;
-}
-.text-left-xs {
-    text-align: left!important;
-}
-.width-100-xs {
-    width: 100%;
-}
-.arrow-xs {
-    font-size: 9em;
-    display: inline;
-    padding-right: 5%;
-}
+	form input[type=submit] {
+	    font-size: 2.8em!important;
+	    padding: 4% 14%!important;
 
-.inline-xs {
-    display: inline;
-}
+	}
 
-form input[type=submit] {
-    font-size: 2.8em!important;
-    padding: 4% 14%!important;
+	form input[type=text], form input[type=email], form input[type=phone] {
+	    font-size: 2.5em!important;
+	    width: 88%!important;
 
-}
+	}
 
-form input[type=text], form input[type=email], form input[type=phone] {
-    font-size: 2.5em!important;
-    width: 88%!important;
+	.modal-info p {
+		font-size: 2em!important;
+	}
+	.modal-info ol, .modal-info li  {
+			font-size: 1.5em;
+	}
+	.modal-info span {
+		font-size: 2.5em!important;
+		margin-top: 2%;
+		font-weight: bold;
+	}
+	.back {
+		font-size: 2em;
+	}
+	.modal-info > div {
+    	padding: 3% 6% 10.5% 6%;
+   }
+   .hero.airsoft h1 {
+    	font-size: 8.5em !important;
+	}
+	.hero.airsoft .icon-airsoft {
+	    padding-top: 5%;
+	    margin-left: 3%;
+	}
+	.hero.airsoft .subtitle {
+	    font-size: 3.8em;
+	   }
 
-}
+	.icon-home {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		position: relative;
+		float: right; 
+		top: 0%!important;
 
+	}
+	.icon-home span {
+		font-size: 2em;
+	}
+	.icon-home div {
+		top: 36px;
+    	right: 31%;
+	}
+
+	.fz-2-xs {font-size: 2.5em;}
+	.fz-3-xs{font-size: 3em;}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -154,9 +200,156 @@ form input[type=text], form input[type=email], form input[type=phone] {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 990px) {
 /* Styles */
-	
+	.hero {
+		background: white;
+		background-image: none!important;
+		}
+	.hero.home:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background-image: none;
+	    opacity: 0.8;
+	}
+	.hero.home .container h2.c {
+    right: 38%;
+	}
+	.hero.home .container h2.d {
+    left: 38%;
+	}
+	.hero.home .icon-fb {
+	    position: relative;
+	    top: -155px;
+	    left: 0px;
+	}
+	.hero.home .boton-tienda span {
+    margin-left: 7%;
+    top: 40%;
+	}
+
+	/*reservas*/
+	.black-box {
+	    height: auto!important;
+
+	}
+	.black-box p {
+	    font-size: 1.2em!important;
+	}
+	.icon-pb {
+	        width: 40%;
+	}
+	.info-pb {
+	    font-size: 1.2em!important;
+	    position: relative;
+	    left: 40%;
+	    float: none!important;
+	}
+
+	.hero.pb form, .hero.nerf form, .hero.bazooka form {
+	    padding: 0px;
+	} 
+	/*utils*/
+	.plr-0-xs {
+	    padding-left: 0px!important;
+	    padding-right: 0px!important;
+	}
+	.plr-5-xs {
+	    padding-left: 5%;
+	    padding-right: 5%;
+	}
+	.mlr-5-xs {
+	    margin-left: 5%!important;
+	    margin-right: 5%!important;
+	}
+
+	.mtb-xs {
+	    margin-top: 3%!important;
+	    margin-bottom: 3%!important;
+	}
+	.mt-5-xs {
+	    padding-top: 5%!important;
+	}
+	.mt-10-xs {
+	    margin-top: 10%;
+	}
+	.text-left-xs {
+	    text-align: left!important;
+	}
+	.width-100-xs {
+	    width: 100%;
+	}
+	.arrow-xs {
+	    font-size: 8em;
+	    display: inline;
+	    padding-right: 5%;
+	}
+
+	.inline-xs {
+	    display: inline;
+	}
+
+	form input[type=submit] {
+	    font-size: 1.2em!important;
+	    padding: 4% 14%!important;
+
+	}
+
+	form input[type=text], form input[type=email], form input[type=phone] {
+	    font-size: 1.1em!important;
+	    width: 88%!important;
+
+	}
+	.modal-info p {
+		font-size: 1.2em!important;
+	}
+	.modal-info ol, .modal-info li  {
+			font-size: 1.2em;
+	}
+	.modal-info span {
+		font-size: 1.5em!important;
+		margin-top: 2%;
+		font-weight: bold;
+	}
+	.back {
+		font-size: 1.2em;
+	}
+	.modal-info > div {
+    padding: 3% 6% 10.5% 6%;
+   }
+   .hero.airsoft h1 {
+    	font-size: 8.5em !important;
+	}
+	.hero.airsoft .icon-airsoft {
+	    padding-top: 5%;
+	    margin-left: 3%;
+	}
+	.hero.airsoft .subtitle {
+	    font-size: 3.8em;
+	   }
+
+	.icon-home {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		position: relative;
+		float: right; 
+		top: 0%!important;
+
+	}
+	.icon-home span {
+		font-size: 2em;
+	}
+	.icon-home div {
+		top: 36px;
+    	right: 31%;
+	}
+
+	.fz-2-xs {font-size: 2.5em;}
+	.fz-3-xs{font-size: 3em;}
 }
 
 /* iPads (landscape) ----------- */
@@ -179,20 +372,23 @@ iPad 3
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
 /* Styles */
 }
-
-/*min screens*/
-@media only screen  and (min-width : 995px) {
+@media only screen  and (min-width : 990px) and  (max-width : 1223px) {
 /* Styles */
-	
 	.hero.home .logo {
 	    height: 82px;
 	    width: 12%;
 	    top: 9%;
 	    left: 6%;
 	}
-	
-    
+	.hero.home .boton-tienda span {
+	    margin-left: 5.5%!important;
+	    top: 40%;
+	}
+	.icon-fb {
+        left: 11%!important;
+    }
 }
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
@@ -211,7 +407,11 @@ iPad 3
 	.hero.home .container h2.d {
     left: 19%;
 	}
+	.icon-fb {
 
+        top: 27%;
+        left: 9.5%!important;
+    }
 }
 
 @media only screen  and (min-width : 1420px) {
@@ -232,7 +432,12 @@ iPad 3
     left: 19%;
     }
 
-    
+    .icon-fb {
+    	position: absolute;
+        top: 28%;
+        left: 9%!important;
+    }
+        
 }
 
 
@@ -254,7 +459,10 @@ iPad 3
     left: 19%;
 }
 
-
+.icon-fb {
+        top: 28%;
+        left: 8.5%;
+    }
 }
 
 /* iPhone 4 ----------- */
