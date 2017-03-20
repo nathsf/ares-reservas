@@ -11,25 +11,32 @@
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
   </head>
   <body>
-    <section id="main" class="hero pb ">
+    <section class="hero pb " id="main">
       <div class="container hidden-xs hidden-sm">
         <div class="row">
-          <div class="col-sm-12 menu"><a href="index.html">Home</a><span class="bar">|</span><a href="paintball.html">Paintball</a><span class="bar">|</span><a href="nerf.html">Nerf</a><span class="bar">|</span><a href="bazooka.html">Bazooka</a><span class="bar">|</span><a href="airsoft.html">Airsoft</a><span class="bar">|</span><a href="#">Tienda</a></div>
+          <div class="col-sm-12 menu"><a href="index.html">Home</a><span class="bar">|</span><a href="paintball.html">Paintball</a><span class="bar">|</span><a href="nerf.html">Nerf</a><span class="bar">|</span><a href="bazooka.html">Bazooka</a><span class="bar">|</span><a href="airsoft.html">Airsoft</a><span class="bar">|</span><a href="#openAlert">Tienda </a>
+            <div class="modal-info home text-center" id="openAlert">
+              <div>
+                <h3>Disculpe las molestias</h3>
+                <p>Estamos trabajando en la tienda para que puedas encontrar los mejores productos.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 "><a href="index.html" class="hidden-md hidden-lg arrow-xs inline"><</a>
+          <div class="col-sm-12 "><a class="hidden-md hidden-lg arrow-xs inline" href="index.html"><</a>
             <h1 class="text-left-xs inline-xs">Paintball</h1>
           </div>
           <div class="col-sm-12 plr-0-xs plr-10 mt-5-xs">
             <div class="col-sm-12 col-md-5 plr-0-xs">
-              <div class="black-box text-center"><img src="assets/icons/icon-pb.png" class="text-center icon-pb">
-                <p class="text-left">El PAINTBALL en esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo (como capturar una bandera o eliminar a un jugador concreto).</p><a href="#openInfo" class="info-pb">Ver más</a>
-                <div id="openInfo" class="modal-info">
+              <div class="black-box text-center"><img class="text-center icon-pb" src="assets/icons/icon-pb.png">
+                <p class="text-left"> El PAINTBALL es un deporte extremo en el que los participantes usan marcadoras accionadas por aire comprimido/CO2 para disparar pequeñas bolas rellenas de pintura a otros jugadores con el objetivo de cumplir la misión encomendada. </p><a class="info-pb" href="#openInfo">Ver más</a>
+                <div class="modal-info text-left" id="openInfo">
                   <div>
                     <h2>Paintball</h2>
-                    <p>El paintball en esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo ( como capturar una bandera o eliminar a un jugador en concreto). Los jugadores alcanzados por bolas de pintura son eliminados del mismo. Contrariamente a lo que se piensa, es uno de los deportes al aire libre más seguros. A pesar de lo que mucha gente piensa que es un juego violento, todo lo contrario, es un juego que fomenta la colaboración en equipo asi como la relajación y la disminución del estrés ocacionado por el trabajo, estudios, etc. </p><span>Campos</span>
+                    <p> El Paintball es un deporte extremo en el que los participantes usan marcadoras accionadas por aire comprimido/CO2 para disparar pequeñas bolas rellenas de pintura a otros jugadores con el objetivo de cumplir la misión encomendada. Es un juego de guerra lleno de acción y totalmente seguro, en el que los participantes  deben desenvolverse  con estrategia y trabajo en equipo. Sentirá que la diversión salta de un videojuego  a la propia realidad.</p><span>Campos</span>
                     <ol>
                       <li>Campo móvil</li>
                       <li>Lima Norte (próximamente)</li>
@@ -40,7 +47,7 @@
                       <li>Lentes</li>
                       <li>Marcadores de Paintball Tippmann 98 y FT 12</li>
                       <li>Venta de repuestos para marcadoras Tippmann 98 y FT 12</li>
-                    </ol><a href="#close" title="close" class="back">Volver atrás</a>
+                    </ol><a class="back" href="#close" title="close">Volver atrás</a>
                   </div>
                 </div>
               </div>
@@ -49,10 +56,10 @@
               <div class="black-box plr-0-xs">
                 <form>
                   <p class="plr-5-xs">Llena tus datos para realizar una reserva</p>
-                  <input type="text" placeholder="Nombre completo" name="fullname" required class="mlr-5-xs mtb-5-xs"><span class="required">*</span>
-                  <input type="email" placeholder="Correo" name="fullname" required class="mtb-5-xs mlr-5-xs"><span class="required">*</span>
-                  <input type="phone" placeholder="telefono" name="phone" required class="mlr-5-xs mtb-5-xs"><span class="required">*</span>
-                  <input type="submit" name="submit" value="Enviar" class="submit width-100-xs">
+                  <input class="mlr-5-xs mtb-5-xs" type="text" placeholder="Nombre completo" name="fullname" required><span class="required">*</span>
+                  <input class="mtb-5-xs mlr-5-xs" type="email" placeholder="Correo" name="fullname" required><span class="required">*</span>
+                  <input class="mlr-5-xs mtb-5-xs" type="phone" placeholder="Teléfono" name="phone" required><span class="required">*</span>
+                  <input class="submit width-100-xs" type="submit" name="submit" value="Enviar">
                 </form>
               </div>
             </div>
@@ -61,23 +68,23 @@
       </div>
       <section class="gallery pb hidden-xs hidden-sm">
         <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg1"><img src="assets/img/p1-mini.png"></a>
-          <div id="openImg1" class="modalImg p1">
-            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/p1-full.png"></div>
+          <div class="modalImg p1" id="openImg1">
+            <div><a class="close" href="#close" title="close">X</a><img src="assets/img/p1-full.png"></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg2"><img src="assets/img/p2-mini.png"></a>
-          <div id="openImg2" class="modalImg p2">
-            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/p2-full.png"></div>
+          <div class="modalImg p2" id="openImg2">
+            <div><a class="close" href="#close" title="close">X</a><img src="assets/img/p2-full.png"></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg3"><img src="assets/img/p3-mini.png"></a>
-          <div id="openImg3" class="modalImg p3">
-            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/p3-full.png"></div>
+          <div class="modalImg p3" id="openImg3">
+            <div><a class="close" href="#close" title="close">X</a><img src="assets/img/p3-full.png"></div>
           </div>
         </div>
         <div class="col-sm-12 col-md-3 pl-0 pr-0"><a href="#openImg4"><img src="assets/img/p4-mini.png"></a>
-          <div id="openImg4" class="modalImg p3">
-            <div><a href="#close" title="close" class="close">X</a><img src="assets/img/p4-full.png"></div>
+          <div class="modalImg p3" id="openImg4">
+            <div><a class="close" href="#close" title="close">X</a><img src="assets/img/p4-full.png"></div>
           </div>
         </div>
       </section>

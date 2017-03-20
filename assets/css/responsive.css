@@ -195,11 +195,14 @@
 
 	}
 	.icon-home span {
-		font-size: 2em;
+		font-size: 2.8em;
 	}
 	.icon-home div {
-		top: 36px;
-    	right: 31%;
+		top: 45px;
+        right: 61%;
+        height: 45px;
+        width: 55px;
+        background-size: cover;
 	}
 
 	.fz-2-xs {font-size: 2.5em;}
@@ -383,12 +386,16 @@
 
 	}
 	.icon-home span {
-		font-size: 2em;
-	}
-	.icon-home div {
-		top: 36px;
-    	right: 31%;
-	}
+        font-size: 2.8em;
+    }
+    .icon-home div {
+        top: 45px;
+        right: 61%;
+        height: 45px;
+        width: 55px;
+        background-size: cover;
+    }
+
 
 	.fz-2-xs {font-size: 2.5em;}
 	.fz-3-xs{font-size: 3em;}

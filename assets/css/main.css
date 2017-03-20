@@ -291,6 +291,7 @@ body p {
   background: #fff;
 }
 .close {
+  opacity: 1;
   font-size: 1.2em;
   background: #606061;
   color: #fff;
@@ -313,6 +314,7 @@ body p {
   color: #fff;
   text-decoration: none;
   background: #f00 !important;
+  opacity: 1;
 }
 .back {
   color: #000;
@@ -389,6 +391,8 @@ body p {
   transition: all 0.2s ease-in-out;
 }
 .zoom-effect:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 .inline {

@@ -16,7 +16,11 @@ html(lang="en")
                 span(class='bar') |
                 a(href='airsoft.html' ) Airsoft
                 span(class='bar') |
-                a(href='#' ) Tienda
+                a(href='#openAlert' class='') Tienda
+                div(id='openAlert' class='modal-info text-center home')
+                    div
+                        h3 Disculpe las molestias
+                        p Estamos trabajando en la tienda para que puedas encontrar los mejores productos.
 
       div(class='container')
         div(class='row')
@@ -27,12 +31,12 @@ html(lang="en")
                 div(class='col-sm-12 col-md-5 plr-0-xs mt-5-xs')
                     div(class='black-box text-center')
                         img(src='assets/icons/icon-bazooka.png' class='text-center icon-pb')
-                        p(class='text-left') El BAZOOKA BALL es un juego de guerra novedoso, lleno de accion y totalmente seguro donde se enfrentan 2 equipos de hasta 8 jugadores con el objetivo de capturar una bandera. No es Paintball pero si toma la forma y reglas de este conocido juego.
+                        p(class='text-left') El BAZOOKA BALL es un juego de guerra donde se enfrentan 2 equipos de hasta 8 jugadores con el objetivo de capturar una bandera. El juego es muy parecido al conocido Paintball pero aquí se disparan una bolas especiales de espuma de 5cm de diámetro, parecidas a una pelota de golf.
                         a(href='#openInfo' class='info-pb') Ver más
                         div(id='openInfo' class='modal-info text-left')
                           div
                             h2 Bazooka
-                            p El paintball en esencia es un juego y deporte de estrategia complejo en el cual se enfrentan dos equipos con el fin de eliminar a todos los jugadores del bando rival o completar un objetivo ( como capturar una bandera o eliminar a un jugador en concreto). Los jugadores alcanzados por bolas de pintura son eliminados del mismo. Contrariamente a lo que se piensa, es uno de los deportes al aire libre más seguros. A pesar de lo que mucha gente piensa que es un juego violento, todo lo contrario, es un juego que fomenta la colaboración en equipo asi como la relajación y la disminución del estrés ocacionado por el trabajo, estudios, etc. 
+                            p El BAZOOKA BALL es un juego de guerra donde se enfrentan 2 equipos de hasta 8 jugadores con el objetivo de capturar una bandera. El juego es muy parecido al conocido Paintball pero aquí se disparan una bolas especiales de espuma de 5cm de diámetro, parecidas a una pelota de golf. Lo importante es que, si te disparan desde muy cerca, no duele ni deja moretones, ¡muy seguro! Por lo mismo no necesitan usar todo el equipo de protección que se utiliza para el paintball, aquí solo usan polos o pañoletas de colores para diferenciar a los equipos y lentes para proteger los ojos.
                             span Campos
                             ol
                               li Campo móvil
@@ -55,7 +59,7 @@ html(lang="en")
                             span(class='required') *
                             input(type="email" placeholder="Correo" name="fullname" class='mlr-5-xs mtb-5-xs' required)
                             span(class='required') *
-                            input(type="phone" placeholder="telefono" name="phone" class='mlr-5-xs mtb-5-xs' required)
+                            input(type="phone" placeholder="Teléfono" name="phone" class='mlr-5-xs mtb-5-xs' required)
                             span(class='required') *
                             input(class="submit" type="submit" name="submit" class='width-100-xs' value="Enviar")
       section(class='gallery pb hidden-xs hidden-sm')
