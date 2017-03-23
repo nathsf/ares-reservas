@@ -22,3 +22,20 @@ $('.slide-g').owlCarousel({
         }
     }
 })
+
+$(document).ready(function() {
+            /*
+            *   Examples - images
+            */
+
+            $("a#example1").fancybox();
+
+            
+            $("#various1").fancybox({
+                'titlePosition'     : 'inside',
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none'
+            });
+
+            
+        });

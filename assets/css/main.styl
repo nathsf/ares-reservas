@@ -147,6 +147,7 @@ body
 .gallery.pb
     border-top 5px solid white 
     margin-top 5%
+    background-color white
     img 
         width 100%
 
@@ -358,3 +359,61 @@ body
     font-size 20px
     font-weight 200  
 	
+/*fancy box*/
+
+.modal-container
+	max-width 500px
+  	padding 0
+  	margin 0
+  	border-radius .3em
+  	box-shadow 0 0.1em 0.4em rgba(0,0,0,.3)
+  	
+.modal-title 
+  font-weight 700
+  padding 1.5em
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+
+.modal-body 
+  max-height 50vh
+  padding 0 1.5em 1.5em 1.5em
+  overflow-y auto
+
+
+.modal-footer 
+  padding 1.5em
+  text-align right
+
+
+p:first-child 
+  margin-top: 0
+
+
+/* Custom entrance animation */
+
+.fancybox-slide--complete .modal-container 
+    -webkit-animation slide-down .216s
+    animation slide-down .216s
+
+
+@-webkit-keyframes slide-down
+  0% 
+    margin-top -3em
+    opacity 0
+  
+  100%
+    margin-top 0
+    opacity 1
+  
+
+
+@keyframes slide-down
+  0% 
+    margin-top -3em
+    opacity 0
+  
+  100% 
+    margin-top 0
+    opacity 1
+  
+
