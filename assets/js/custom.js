@@ -23,19 +23,12 @@ $('.slide-g').owlCarousel({
     }
 })
 
-$(document).ready(function() {
-            /*
-            *   Examples - images
-            */
+function modal(numero) {
+    $(document).ready(function() {
+        
+            $("a#modal"+numero).fancybox();
 
-            $("a#example1").fancybox();
+             });
 
-            
-            $("#various1").fancybox({
-                'titlePosition'     : 'inside',
-                'transitionIn'      : 'none',
-                'transitionOut'     : 'none'
-            });
-
-            
-        });
+    
+}
