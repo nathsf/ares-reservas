@@ -1,5 +1,8 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.icon-airsoft {
+		    width: 70%;
+	}
 /* Styles */
 	.hero {
 		background: white;
@@ -179,7 +182,6 @@
     	font-size: 8.5em !important;
 	}
 	.hero.airsoft .icon-airsoft {
-	    padding-top: 5%;
 	    margin-left: 3%;
 	}
 	.hero.airsoft .subtitle {
@@ -229,6 +231,9 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 990px) {
 /* Styles */
+	.icon-airsoft {
+		    width: 60%;
+	}
 	.hero {
 		background: white;
 		background-image: none!important;

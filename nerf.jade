@@ -3,7 +3,25 @@ html(lang="en")
   include head.jade
   body(onLoad='modal(1),modal(2), modal(3), modal(4), modal(5),modal(6), modal(7), modal(8)')
     section(class='hero nerf' id='main')
-      include menu.jade
+      div(class='container hidden-xs hidden-sm')
+        div(class='row')
+            div(class='col-sm-12 menu hover-white')
+                a(href='index.html' ) Home
+                span(class='bar') |
+                a(href='paintball.html' ) Paintball
+                span(class='bar') |
+                a(href='nerf.html' ) Nerf
+                span(class='bar') |
+                a(href='bazooka.html' ) Bazooka
+                span(class='bar') |
+                a(href='airsoft.html' ) Airsoft
+                span(class='bar') |
+                a(href='#openAlert' class='') Tienda
+                div(id='openAlert' class='modal-info text-center home')
+                    div
+                        h3 Disculpe las molestias
+                        p Estamos trabajando en la tienda para que puedas encontrar los mejores productos.
+
 
       div(class='container')
         div(class='row')
